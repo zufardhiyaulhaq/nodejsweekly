@@ -9,7 +9,7 @@ cronSchedule: "0 8 * * 1"
 image:
   name: "nodeweekly"
   repository: "zufardhiyaulhaq/nodeweekly"
-  tag: "latest"
+  tag: "0.0.1"
 
 #############################
 # envoronment configuration #

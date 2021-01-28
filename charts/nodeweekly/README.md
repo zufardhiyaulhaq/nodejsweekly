@@ -1,5 +1,5 @@
-# nodeweekly
-Get data from nodeweekly.com and create Weekly CRDs based on community-operator & push to datastore
+# nodeweekly charts
+Helm chart for nodeweeklys
 
 ### Installing the charts
 From root directory of nodeweekly. Please edit the values.yaml inside charts before applying.
@@ -26,3 +26,5 @@ helm install zufardhiyaulhaq/nodeweekly --name-template nodeweekly -f values.yam
 | jobHistoryLimit | int | `1` |  |
 | namespace | string | `"nodejs-community"` |  |
 | tags | string | `"weekly,nodejs"` |  |
+
+check & modify values.yaml for details
