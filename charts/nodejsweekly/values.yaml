@@ -1,0 +1,15 @@
+
+cronSchedule: "0 8 * * 0"
+
+image:
+  repository: "zufardhiyaulhaq/nodejsweekly"
+  tag: "v1.0.0"
+
+secret: ""
+
+weekly:
+  community: "Node.js Indonesia Community"
+  tags: "weekly,nodejs"
+  namespace: "nodejs-community"
+  image_url: "https://calebmadrigal.com/images/nodejs-logo.png"
+

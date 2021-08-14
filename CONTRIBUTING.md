@@ -6,7 +6,7 @@ Prerequisites:
 - make
 - [Go 1.13+](https://golang.org/doc/install)
 
-- export this variable
+- export variable for developing
 ```
 export GITHUB_TOKEN="GITHUB_TOKEN"
 export GITHUB_ORGANIZATION="GITHUB_USERNAME/ORGANIZATION"
@@ -14,32 +14,30 @@ export GITHUB_REPOSITORY="GITHUB_REPOSITORY"
 export GITHUB_REPOSITORY_PATH="GITHUB_REPOSITORY_PATH"
 export GITHUB_BRANCH="BRANCH"
 
-export COMMUNITY="COMMUNITY_NAME"
-export TAGS="TAGS"
-export NAMESPACE="CRD_NAMESPACE"
-export IMAGE="IMAGE_FOR_WEEKLY"
+export WEEKLY_COMMUNITY="COMMUNITY_NAME"
+export WEEKLY_TAGS="TAGS"
+export WEEKLY_NAMESPACE="CRD_NAMESPACE"
+export WEEKLY_IMAGE="IMAGE_FOR_WEEKLY"
 ```
+
 for example
 ```
 export GITHUB_TOKEN="token"
 export GITHUB_ORGANIZATION="zufardhiyaulhaq"
 export GITHUB_REPOSITORY="community-ops"
-export GITHUB_REPOSITORY_PATH="./manifest/nodejs-community/"
+export GITHUB_REPOSITORY_PATH="./manifest/nodejs-community/weekly/"
 export GITHUB_BRANCH="master"
 
-export COMMUNITY="NodeJs Indonesia Community"
-export TAGS="weekly,node"
-export NAMESPACE="node-community"
-export IMAGE="https://calebmadrigal.com/images/nodejs-logo.png"
-```
-- Build & Run
-```
-go build -o nodeweekly cmd/nodeweekly/*.go
-./nodeweekly
+export WEEKLY_COMMUNITY="Node.js Indonesia Community"
+export WEEKLY_TAGS="weekly,nodejs"
+export WEEKLY_NAMESPACE="nodejs-community"
+export WEEKLY_IMAGE="https://calebmadrigal.com/images/nodejs-logo.png"
 ```
 
-### Build Docker
-- To build your image
+- Lint, test, build, and run
 ```
-make build REPOSITORY=username/repository TAG=tag
+make lint
+make test
+make build
+make run
 ```
