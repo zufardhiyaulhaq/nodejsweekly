@@ -1,0 +1,36 @@
+apiVersion: v1
+entries:
+  nodejsweekly:
+  - apiVersion: v2
+    appVersion: 1.1.0
+    created: "2022-06-29T18:38:09.488733+07:00"
+    description: Get data from nodejs news and create Weekly CRDs based on community-operator
+      and push to git datastore
+    digest: 65181cfccd3aeccc3b8a49de9ae567ec643aec84b5cb7ccb4a3467202214bfbb
+    home: https://github.com/zufardhiyaulhaq/nodeweekly
+    maintainers:
+    - email: zufardhiyaulhaq@gmail.com
+      name: Zufar Dhiyaulhaq
+      url: https://zufardhiyaulhaq.com
+    name: nodejsweekly
+    type: application
+    urls:
+    - nodejsweekly-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-06-29T18:38:09.488157+07:00"
+    description: Get data from nodejs news and create Weekly CRDs based on community-operator
+      and push to git datastore
+    digest: 46a9465982d7760d86e9d282faf84973e5ceed5dfeed6aee261e1b2c36203409
+    home: https://github.com/zufardhiyaulhaq/nodeweekly
+    maintainers:
+    - email: zufardhiyaulhaq@gmail.com
+      name: Zufar Dhiyaulhaq
+      url: https://zufardhiyaulhaq.com
+    name: nodejsweekly
+    type: application
+    urls:
+    - nodejsweekly-1.0.0.tgz
+    version: 1.0.0
+generated: "2022-06-29T18:38:09.486908+07:00"

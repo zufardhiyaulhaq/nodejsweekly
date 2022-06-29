@@ -3,7 +3,7 @@ cronSchedule: "0 8 * * 0"
 
 image:
   repository: "zufardhiyaulhaq/nodejsweekly"
-  tag: "v1.0.0"
+  tag: "v1.1.0"
 
 secret: ""
 

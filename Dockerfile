@@ -19,7 +19,7 @@ WORKDIR /home/nodejsweekly
 #################
 # Builder image
 #################
-FROM golang:1.15-alpine AS nodejsweekly-builder
+FROM golang:1.16-alpine AS nodejsweekly-builder
 RUN apk add --update --no-cache alpine-sdk
 WORKDIR /app
 COPY . .
